@@ -1,0 +1,16 @@
+<svg width="150" height="60" viewBox="0 0 150 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo "f" com chapéu de formatura -->
+  <path d="M20 15 L40 15 L40 20 L30 20 L30 25 L38 25 L38 30 L30 30 L30 45 L23 45 L23 20 L20 20 Z" fill="#FF6B35"/>
+  <path d="M25 12 C25 12 20 8 15 12 L20 8 L25 12 M25 12 L30 8 L35 12 C35 12 30 8 25 12" fill="#FF6B35"/>
+  <ellipse cx="30" cy="10" rx="8" ry="2" fill="#FF6B35"/>
+  
+  <!-- Texto "ulltime" -->
+  <text x="45" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">ulltime</text>
+  
+  <!-- Texto "Academy" com chapéu -->
+  <g transform="translate(100, 0)">
+    <path d="M15 28 L10 35 L20 35 Z" fill="#FF6B35"/>
+    <rect x="8" y="26" width="14" height="2" fill="#FF6B35"/>
+  </g>
+  <text x="45" y="52" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#FF6B35">Academy</text>
+</svg>
