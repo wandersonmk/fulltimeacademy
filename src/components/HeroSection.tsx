@@ -88,7 +88,7 @@ const HeroSection = () => {
                 Domine a <span className="text-cyber-purple text-glow">Automação com IA</span> no WhatsApp
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-6 md:mb-8 reveal-on-scroll leading-relaxed" style={{animationDelay: '0.2s'}}>
-                Aprenda na prática a criar automações inteligentes e transforme seu atendimento e vendas com a <span className="text-cyber-purple font-medium">Fulltime Academy</span>.
+                Aprenda na prática a criar automações inteligentes e transforme seu atendimento e vendas com a <span className="text-cyber-purple font-medium">Fulltime Academy</span>. Desenvolva aplicativos no VS Code de forma componentizada e organizada, mesmo sem saber programar.
               </p>
             </div>
             
