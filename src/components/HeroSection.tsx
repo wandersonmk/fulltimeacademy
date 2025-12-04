@@ -84,10 +84,10 @@ const HeroSection = () => {
           
           <div className="space-y-8">
             <div>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-white reveal-on-scroll leading-tight">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-white reveal-on-scroll leading-tight">
                 Domine a <span className="text-cyber-purple text-glow">Automação com IA</span> no WhatsApp
               </h1>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-white/80 mb-6 md:mb-8 reveal-on-scroll leading-relaxed" style={{animationDelay: '0.2s'}}>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-6 md:mb-8 reveal-on-scroll leading-relaxed" style={{animationDelay: '0.2s'}}>
                 Aprenda na prática a criar automações inteligentes e transforme seu atendimento e vendas com a <span className="text-cyber-purple font-medium">Fulltime Academy</span>.
               </p>
             </div>
