@@ -33,7 +33,7 @@ const CTASection = () => {
   }, []);
 
   return (
-    <section id="inscricao" className="py-24 bg-gradient-to-b from-cyber-darker to-cyber-dark relative overflow-hidden">
+    <section id="inscricao" className="py-24 relative overflow-hidden">
       {/* Background grid effect */}
       <div className="absolute inset-0 cyber-grid opacity-30"></div>
       

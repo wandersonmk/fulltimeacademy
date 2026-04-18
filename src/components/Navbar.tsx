@@ -24,10 +24,12 @@ const Navbar = () => {
       scrolled ? "bg-cyber-darker/80 backdrop-blur-md shadow-md" : "bg-transparent"
     )}>
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between py-1">
+        <div className="flex items-center justify-between py-5">
           <div className="flex items-center">
             <a href="/" className="flex items-center">
-              <img src="/images/logo.png" alt="Fulltime Academy" className="h-12 sm:h-16 w-auto" />
+              <span className="text-white font-bold text-lg tracking-wide">
+                FullTime <span className="text-cyber-pink">Academy</span>
+              </span>
             </a>
           </div>
           <nav className="hidden md:flex items-center space-x-8">

@@ -36,7 +36,7 @@ const ForWhoSection = () => {
   ];
   
   return (
-    <section id="para-quem" className="py-20 bg-cyber-darker relative overflow-hidden">
+    <section id="para-quem" className="py-20 relative overflow-hidden">
       {/* Background grid effect */}
       <div className="absolute inset-0 cyber-grid opacity-30"></div>
       

@@ -5,7 +5,7 @@ import { ExternalLink, Play, Pause, Volume2, VolumeX } from 'lucide-react';
 
 const HeroSection = () => {
   // Cole aqui o ID do vídeo do YouTube (ex: se a URL é youtube.com/watch?v=ABC123, use "ABC123")
-  const youtubeVideoId = "czhzDKGdWg0";
+  const youtubeVideoId = "gzEHzX93arI";
   useEffect(() => {
     const revealElements = document.querySelectorAll('.reveal-on-scroll');
     
@@ -41,7 +41,7 @@ const HeroSection = () => {
         <div className="absolute right-1/4 bottom-1/4 w-80 h-80 bg-cyber-pink/20 rounded-full blur-[120px]" />
       </div>
       
-      <div className="section-container relative z-10 pt-48 md:pt-28">
+      <div className="section-container relative z-10 pt-56 md:pt-36 pb-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="reveal-on-scroll" style={{animationDelay: '0.4s'}}>
             <div className="relative w-full rounded-xl overflow-hidden border border-cyber-purple/30 shadow-2xl shadow-cyber-purple/20">

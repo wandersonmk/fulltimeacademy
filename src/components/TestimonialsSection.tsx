@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
   ];
   
   return (
-    <section id="depoimentos" className="py-20 bg-cyber-darker relative overflow-hidden">
+    <section id="depoimentos" className="py-20 relative overflow-hidden">
       {/* Background grid effect */}
       <div className="absolute inset-0 cyber-grid opacity-30"></div>
       

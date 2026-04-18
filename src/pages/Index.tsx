@@ -43,19 +43,37 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-cyber-dark text-white overflow-x-hidden">
-      <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ForWhoSection />
-      <BenefitsSection />
-      <AppDevelopmentSection />
-      <TestimonialsSection />
-      <GuaranteeSection />
-      <CTASection />
-      <FooterSection />
-      <ScrollToTop />
-    </div>
+    <>
+      {/* Video background fixo — irmão do conteúdo para não ser cortado pelo overflow */}
+      <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, overflow: 'hidden' }}>
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
+        >
+          <source src="/images/aa.mp4" type="video/mp4" />
+        </video>
+        {/* Overlay escuro para garantir legibilidade do conteúdo */}
+        <div style={{ position: 'absolute', inset: 0, backgroundColor: 'rgba(2, 8, 16, 0.92)' }} />
+      </div>
+
+      {/* Conteúdo principal acima do vídeo */}
+      <div className="min-h-screen text-white overflow-x-hidden" style={{ position: 'relative', zIndex: 1 }}>
+        <Navbar />
+        <HeroSection />
+        <AboutSection />
+        <ForWhoSection />
+        <BenefitsSection />
+        <AppDevelopmentSection />
+        <TestimonialsSection />
+        <GuaranteeSection />
+        <CTASection />
+        <FooterSection />
+        <ScrollToTop />
+      </div>
+    </>
   );
 };
 

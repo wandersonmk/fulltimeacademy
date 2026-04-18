@@ -53,16 +53,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Cyberpunk theme colors
+				// Tech AI theme colors
 				cyber: {
-					dark: '#0F1118',
-					darker: '#070811',
-					purple: '#cc4e00',
-					'purple-bright': '#cc4e00',
-					pink: '#ff6b35',
-					blue: '#ff8c42',
-					neon: '#ff8c42',
-					glow: 'rgba(204, 78, 0, 0.5)'
+					dark: '#050d1a',
+					darker: '#020810',
+					purple: '#0088ff',
+					'purple-bright': '#0088ff',
+					pink: '#00ccff',
+					blue: '#0055ff',
+					neon: '#00ccff',
+					glow: 'rgba(0, 136, 255, 0.5)'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -100,11 +100,11 @@ export default {
 				'pulse-glow': {
 					'0%, 100%': {
 						opacity: '1',
-						boxShadow: '0 0 0 0 rgba(204, 78, 0, 0.7)'
+						boxShadow: '0 0 8px 0 rgba(0, 136, 255, 0.6), 0 0 20px 0 rgba(0, 204, 255, 0.3)'
 					},
 					'50%': { 
-						opacity: '0.8',
-						boxShadow: '0 0 0 10px rgba(204, 78, 0, 0)'
+						opacity: '0.9',
+						boxShadow: '0 0 20px 6px rgba(0, 136, 255, 0.5), 0 0 40px 10px rgba(0, 204, 255, 0)'
 					}
 				},
 				'fade-in': {
@@ -125,7 +125,7 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'pulse-glow': 'pulse-glow 2s infinite',
+				'pulse-glow': 'pulse-glow 3.5s ease-in-out infinite',
 				'fade-in': 'fade-in 0.7s ease-out',
 				'float': 'float 3s ease-in-out infinite'
 			},
@@ -134,9 +134,9 @@ export default {
 				'roboto': ['Roboto', 'sans-serif']
 			},
 			backgroundImage: {
-				'cyber-gradient': 'linear-gradient(45deg, #0F1118, #1E1A2F)',
-				'neon-glow': 'linear-gradient(90deg, #cc4e00, #ff6b35, #ff8c42)',
-				'cyber-grid': "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h100v100H0V0z' fill='none' stroke='%23cc4e0020' stroke-width='1'/%3E%3C/svg%3E\")"
+				'cyber-gradient': 'linear-gradient(45deg, #050d1a, #0a1a35)',
+				'neon-glow': 'linear-gradient(90deg, #0055ff, #0088ff, #00ccff)',
+				'cyber-grid': "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h100v100H0V0z' fill='none' stroke='%230088ff20' stroke-width='1'/%3E%3C/svg%3E\")"
 			}
 		}
 	},

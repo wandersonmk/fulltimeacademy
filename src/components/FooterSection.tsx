@@ -3,12 +3,14 @@ import React from 'react';
 
 const FooterSection = () => {
   return (
-    <footer className="py-12 bg-cyber-darker relative overflow-hidden">
+    <footer className="py-12 relative overflow-hidden" style={{backgroundColor: 'rgba(2, 8, 16, 0.7)'}}>
       <div className="section-container">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
             <div className="mb-4">
-              <img src="/images/logo.png" alt="Fulltime Academy" className="h-16 w-auto" />
+              <span className="text-white font-bold text-lg tracking-wide">
+                FullTime <span className="text-cyber-pink">Academy</span>
+              </span>
             </div>
             <p className="text-white/70 mb-6">
               Criando sites profissionais com Inteligência Artificial no VS Code.
