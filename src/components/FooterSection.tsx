@@ -11,7 +11,7 @@ const FooterSection = () => {
               <img src="/images/logo.png" alt="Fulltime Academy" className="h-16 w-auto" />
             </div>
             <p className="text-white/70 mb-6">
-              Transformando o atendimento e as vendas no WhatsApp com tecnologia de IA avançada.
+              Criando sites profissionais com Inteligência Artificial no VS Code.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 rounded-full bg-cyber-dark flex items-center justify-center text-white/70 hover:text-cyber-purple hover:bg-cyber-dark/80 transition-colors">

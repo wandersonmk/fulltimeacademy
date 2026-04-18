@@ -6,29 +6,29 @@ const TestimonialsSection = () => {
     {
       id: 1,
       name: "Carlos Silva",
-      role: "Empresário",
-      content: "Implementei as automações do curso e consegui reduzir meu tempo de resposta de 2 horas para 2 minutos. Meus clientes adoraram e as vendas aumentaram em 45% no primeiro mês!",
+      role: "Empreendedor",
+      content: "Criei o site da minha empresa em menos de 2 horas seguindo as aulas. O resultado ficou tão profissional que os clientes pensam que eu contratei uma agência de dev. Valeu muito os R$97!",
       avatar: "https://i.pravatar.cc/150?img=11"
     },
     {
       id: 2,
       name: "Mariana Costa",
-      role: "Afiliada Digital",
-      content: "A Fulltime Academy revolucionou a maneira como eu prospecta clientes. Consigo atender 10x mais pessoas com a mesma qualidade. Minha comissão mensal triplicou!",
+      role: "Freelancer de Design",
+      content: "Como designer eu sempre dependia de devs para colocar meus projetos no ar. Hoje eu mesma crio e publico usando IA no VS Code. Já fechei 4 clientes novos só neste mês!",
       avatar: "https://i.pravatar.cc/150?img=5"
     },
     {
       id: 3,
       name: "Pedro Almeida",
       role: "Dono de Agência",
-      content: "Oferecemos as automações com IA no WhatsApp como serviço premium após fazer o curso. Já conquistamos 12 novos clientes apenas com este novo produto!",
+      content: "Implementamos a metodologia do curso na nossa agência e reduzimos o tempo de entrega de sites de 3 semanas para 3 dias. O ganho em produtividade foi absurdo!",
       avatar: "https://i.pravatar.cc/150?img=15"
     },
     {
       id: 4,
       name: "Ana Beatriz",
-      role: "E-commerce",
-      content: "Nossa taxa de recuperação de carrinhos abandonados subiu de 7% para 23% com a implementação do sistema de automação do curso. Investimento que se pagou em 2 semanas.",
+      role: "Lojista Online",
+      content: "Nunca tinha tocado em código na vida. Em 1 final de semana já tinha minha loja online no ar com um visual lindíssimo. O curso é incrível para quem está começando.",
       avatar: "https://i.pravatar.cc/150?img=9"
     }
   ];
@@ -44,7 +44,7 @@ const TestimonialsSection = () => {
             <span className="text-cyber-purple text-glow">Depoimentos</span> de Alunos
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto reveal-on-scroll" style={{animationDelay: '0.1s'}}>
-            Veja o que nossos alunos estão falando sobre os resultados obtidos com a Fulltime Academy.
+            Veja o que nossos alunos estão falando sobre os sites que criaram com IA no VS Code após o curso.
           </p>
         </div>
         
@@ -92,7 +92,7 @@ const TestimonialsSection = () => {
           <a 
             href="#inscricao" 
             className="inline-block px-8 py-3 text-lg font-medium rounded-md bg-gradient-to-r from-cyber-purple to-cyber-pink text-white hover:from-cyber-pink hover:to-cyber-purple transition-all duration-300 shadow-lg shadow-cyber-purple/30">
-            Junte-se a Eles
+            Quero Criar Meu Site Também
           </a>
         </div>
       </div>

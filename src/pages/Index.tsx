@@ -15,7 +15,7 @@ import ScrollToTop from "@/components/ScrollToTop";
 const Index = () => {
   useEffect(() => {
     // Update document title
-    document.title = "Fulltime Academy - Automação com IA no WhatsApp";
+    document.title = "Fulltime Academy - Sites Profissionais com IA no VS Code";
 
     // Initialize reveal on scroll functionality
     const revealElements = document.querySelectorAll('.reveal-on-scroll');

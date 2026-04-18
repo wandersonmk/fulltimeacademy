@@ -46,7 +46,7 @@ const ForWhoSection = () => {
             Para <span className="text-cyber-purple text-glow">Quem</span> é Este Curso
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto reveal-on-scroll" style={{animationDelay: '0.1s'}}>
-            A Fulltime Academy foi desenvolvida para ajudar profissionais de diversos segmentos a aproveitar o poder da IA no WhatsApp para expandir seus negócios.
+            A Fulltime Academy foi desenvolvida para qualquer pessoa que queira criar sites profissionais usando IA no VS Code, independentemente do nível de experiência.
           </p>
         </div>
         
@@ -67,7 +67,7 @@ const ForWhoSection = () => {
         <div className="mt-16 flex justify-center reveal-on-scroll" style={{animationDelay: '0.7s'}}>
           <div className="glass p-6 rounded-xl border border-cyber-purple/30 max-w-3xl">
             <p className="text-center text-xl text-white font-medium">
-              Independente do seu setor, se você deseja <span className="text-cyber-purple">automatizar comunicações</span> e <span className="text-cyber-purple">aumentar conversões</span> no WhatsApp, este curso é para você!
+              Independente da sua área, se você quer <span className="text-cyber-purple">criar sites profissionais</span> e <span className="text-cyber-purple">usar IA como ferramenta</span> no VS Code, este curso é para você!
             </p>
           </div>
         </div>

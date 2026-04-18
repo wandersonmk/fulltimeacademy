@@ -7,41 +7,42 @@ const AboutSection = () => {
   const courseModules = [
     {
       id: 1,
-      title: "Fundamentos da IA no WhatsApp",
-      description: "Aprenda os conceitos básicos de integração de IA com o WhatsApp e configure seu ambiente de automação.",
+      title: "Configurando o VS Code com IA",
+      description: "Configure seu ambiente de desenvolvimento profissional no VS Code com as extensões de IA certas para criar sites do zero.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
       )
     },
     {
       id: 2,
-      title: "Criação de Chatbots Inteligentes",
-      description: "Desenvolva assistentes virtuais capazes de realizar atendimento humanizado e responder perguntas complexas.",
+      title: "Criando Sites com Inteligência Artificial",
+      description: "Use IA para gerar estruturas de páginas, escrever código e criar layouts profissionais com apenas algumas descrições em texto.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       )
     },
     {
       id: 3,
-      title: "Desenvolvimento de Apps Componentizados",
-      description: "Construa aplicativos modulares e escaláveis usando arquitetura de componentes reutilizáveis e design systems modernos.",
+      title: "Design Profissional e Responsivo",
+      description: "Aprenda a estilizar seus sites com Tailwind CSS e garantir que fiquem perfeitos em qualquer dispositivo, do celular ao desktop.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
         </svg>
       )
     },
     {
       id: 4,
-      title: "Integração com APIs e Ferramentas",
-      description: "Conecte seu sistema de automação com outras plataformas para criar fluxos de trabalho completos e eficientes.",
+      title: "Publicando seu Site Online",
+      description: "Coloque seu site no ar gratuitamente em minutos usando plataformas como Vercel e GitHub, com domínio profissional.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       )
     }
@@ -55,7 +56,7 @@ const AboutSection = () => {
             Sobre o <span className="text-cyber-purple text-glow">Curso</span>
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto reveal-on-scroll" style={{animationDelay: '0.1s'}}>
-            A Fulltime Academy é um programa completo que ensina como utilizar inteligência artificial para criar automações poderosas no WhatsApp, transformando a maneira como você se comunica com seus clientes.
+            A Fulltime Academy é um mini curso prático que ensina como criar sites profissionais usando Inteligência Artificial diretamente no VS Code, do ambiente de desenvolvimento à publicação online.
           </p>
         </div>
         
@@ -77,7 +78,7 @@ const AboutSection = () => {
         
         <div className="mt-16 text-center reveal-on-scroll" style={{animationDelay: '0.5s'}}>
           <p className="text-xl text-white/90 font-medium mb-8">
-            Transforme seu conhecimento em resultados reais com nossas <span className="text-cyber-purple">aulas práticas e exemplos do mundo real</span>.
+            Do zero ao site no ar: aprenda com <span className="text-cyber-purple">aulas práticas e projetos reais</span> usando IA como sua principal ferramenta.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a 
@@ -85,13 +86,6 @@ const AboutSection = () => {
               className="inline-block px-6 py-3 text-base font-medium rounded-md bg-gradient-to-r from-cyber-purple to-cyber-pink text-white hover:from-cyber-pink hover:to-cyber-purple transition-all duration-300 shadow-lg shadow-cyber-purple/30">
               Começar Agora
             </a>
-            <Button 
-              variant="outline" 
-              className="border-cyber-purple hover:bg-cyber-purple/20 text-white"
-              onClick={() => window.open('https://hub.la/g/gADxxrJCI7RmD84DoiOV', '_blank', 'noopener,noreferrer')}
-            >
-              Ver Conteúdo do Curso <ExternalLink className="ml-2" />
-            </Button>
           </div>
         </div>
       </div>

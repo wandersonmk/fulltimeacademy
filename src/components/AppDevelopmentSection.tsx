@@ -7,26 +7,26 @@ const AppDevelopmentSection = () => {
     {
       id: 1, 
       icon: <Code className="h-6 w-6 text-cyber-purple" />,
-      title: "Zero Conhecimento de Programação",
-      description: "Desenvolva aplicativos completos sem precisar escrever uma única linha de código, graças às ferramentas de IA que transformam suas descrições em software funcional."
+      title: "Zero Experiência Necessária",
+      description: "Você não precisa saber programação. A IA escreve o código por você enquanto você descreve o que quer em português."
     },
     {
       id: 2,
       icon: <Terminal className="h-6 w-6 text-cyber-purple" />, 
-      title: "Ferramentas Avançadas de IA",
-      description: "Aprenda a usar plataformas revolucionárias como Lovable, Cursor, e Bolt para materializar suas ideias apenas descrevendo o que você precisa."
+      title: "VS Code + GitHub Copilot",
+      description: "Aprenda a usar o editor mais popular do mundo junto com o assistente de IA que acelera sua produção em até 10x."
     },
     {
       id: 3,
       icon: <Laptop className="h-6 w-6 text-cyber-purple" />, 
-      title: "Curva de Aprendizado Rápida",
-      description: "Em apenas algumas horas, você estará desenvolvendo protótipos funcionais que normalmente levariam semanas ou meses para programadores experientes."
+      title: "Resultados em Horas, Não Semanas",
+      description: "Em poucas horas de aula você já terá um site profissional completo e publicado, pronto para apresentar a clientes."
     },
     {
       id: 4,
       icon: <Cpu className="h-6 w-6 text-cyber-purple" />, 
-      title: "Economia Significativa",
-      description: "Reduza drasticamente seus custos de desenvolvimento, eliminando a necessidade de contratar programadores caros para tirar sua ideia do papel."
+      title: "Economia de R$ Milhares",
+      description: "Pare de pagar caro por agências ou devs freelancers. Com este curso você mesmo cria e mantém seus sites."
     }
   ];
 
@@ -35,10 +35,10 @@ const AppDevelopmentSection = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white reveal-on-scroll">
-            Desenvolvimento de <span className="text-cyber-purple text-glow">Aplicativo</span> Sem Saber Programar
+            Criando Sites <span className="text-cyber-purple text-glow">Profissionais</span> com IA no VS Code
           </h2>
           <p className="text-lg text-white/80 max-w-3xl mx-auto reveal-on-scroll" style={{animationDelay: '0.1s'}}>
-            Descubra como criar aplicativos completos usando apenas o poder da IA, sem precisar escrever código ou gastar fortunas com desenvolvedores.
+            Veja como a IA transforma o VS Code em uma máquina de criação de sites. Você descreve, a IA cria, você personaliza e publica.
           </p>
         </div>
         
@@ -53,18 +53,18 @@ const AppDevelopmentSection = () => {
                 <div className="bg-cyber-dark/80 p-4 rounded-lg border border-white/10 font-mono text-sm text-white/80 h-64 overflow-hidden relative">
                   <div className="absolute inset-0 p-4 overflow-hidden">
                     <div className="typing-code">
-                      <span className="text-white/90">Usuário:</span> <span className="text-white">Crie um aplicativo de agendamento com calendário e notificações</span><br/><br/>
+                      <span className="text-white/90">Você:</span> <span className="text-white">Crie um site institucional moderno com hero section, serviços e contato</span><br/><br/>
                       
-                      <span className="text-cyber-purple">IA:</span> <span className="text-white/90">Criando aplicativo de agendamento...</span><br/>
-                      &nbsp;&nbsp;- Adicionando interface de calendário<br/>
-                      &nbsp;&nbsp;- Configurando sistema de notificações<br/>
-                      &nbsp;&nbsp;- Integrando banco de dados<br/><br/>
+                      <span className="text-cyber-purple">GitHub Copilot:</span> <span className="text-white/90">Gerando site profissional...</span><br/>
+                      &nbsp;&nbsp;- Criando Hero Section com CTA<br/>
+                      &nbsp;&nbsp;- Adicionando seção de serviços<br/>
+                      &nbsp;&nbsp;- Configurando formulário de contato<br/><br/>
                       
-                      <span className="text-cyber-pink">App criado!</span> Seu aplicativo de agendamento está pronto com:<br/>
-                      &nbsp;&nbsp;✓ Interface de usuário intuitiva<br/>
-                      &nbsp;&nbsp;✓ Sistema de notificações por email e WhatsApp<br/>
-                      &nbsp;&nbsp;✓ Banco de dados seguro para armazenar compromissos<br/>
-                      &nbsp;&nbsp;✓ Totalmente funcional sem uma linha de código escrita por você
+                      <span className="text-cyber-pink">Site criado!</span> Seu site profissional está pronto com:<br/>
+                      &nbsp;&nbsp;✓ Design responsivo e moderno<br/>
+                      &nbsp;&nbsp;✓ Animações e transições suaves<br/>
+                      &nbsp;&nbsp;✓ SEO otimizado para Google<br/>
+                      &nbsp;&nbsp;✓ Pronto para publicar na Vercel
                     </div>
                   </div>
                   
@@ -72,7 +72,7 @@ const AppDevelopmentSection = () => {
                 </div>
                 
                 <div className="mt-6 text-center">
-                  <span className="px-4 py-1 bg-cyber-purple/20 text-cyber-purple rounded-full text-sm font-medium">AI-Powered No-Code Development</span>
+                  <span className="px-4 py-1 bg-cyber-purple/20 text-cyber-purple rounded-full text-sm font-medium">VS Code + IA = Sites Profissionais</span>
                 </div>
               </div>
               
@@ -95,21 +95,21 @@ const AppDevelopmentSection = () => {
               <a 
                 href="#inscricao" 
                 className="inline-block px-6 py-3 text-base font-medium rounded-md bg-gradient-to-r from-cyber-purple to-cyber-pink text-white hover:from-cyber-pink hover:to-cyber-purple transition-all duration-300 shadow-lg shadow-cyber-purple/30">
-                Quero Criar Apps Sem Programar
+                Quero Criar Meu Site com IA
               </a>
             </div>
           </div>
         </div>
         
         <div className="mt-16 p-6 glass rounded-xl border border-cyber-purple/20 reveal-on-scroll" style={{animationDelay: '0.6s'}}>
-          <h3 className="text-2xl font-bold mb-4 text-center text-white">Ferramentas que Você Vai Dominar</h3>
+          <h3 className="text-2xl font-bold mb-4 text-center text-white">Tecnologias que Você Vai Dominar</h3>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
             {[
-              { name: 'VS Code', desc: 'Editor de código profissional' },
-              { name: 'N8n', desc: 'Automação de workflows' },
-              { name: 'OpenAI GPT', desc: 'Inteligência Artificial avançada' },
-              { name: 'Google Cloud API', desc: 'Serviços em nuvem' },
-              { name: 'Chatwoot', desc: 'Gestão de atendimento' }
+              { name: 'VS Code', desc: 'Editor profissional com IA' },
+              { name: 'GitHub Copilot', desc: 'IA para gerar código' },
+              { name: 'Tailwind CSS', desc: 'Design responsivo moderno' },
+              { name: 'React', desc: 'Componentes interativos' },
+              { name: 'Vercel', desc: 'Publicação grátis e rápida' }
             ].map((tool) => (
               <div key={tool.name} className="bg-cyber-dark/50 p-4 rounded-lg border border-white/10 text-center hover:border-cyber-purple/30 hover:shadow-lg hover:shadow-cyber-purple/10 transition-all duration-300">
                 <div className="text-xl font-semibold text-cyber-purple mb-2">{tool.name}</div>

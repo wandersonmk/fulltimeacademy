@@ -77,7 +77,7 @@ const HeroSection = () => {
             {/* Texto abaixo do vídeo */}
             <div className="mt-6 text-center">
               <p className="text-white/80 text-sm">
-                🎥 Assista e descubra como transformar seu WhatsApp
+                🎥 Assista e descubra como criar sites profissionais com IA no VS Code
               </p>
             </div>
           </div>
@@ -85,10 +85,10 @@ const HeroSection = () => {
           <div className="space-y-8">
             <div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 text-white reveal-on-scroll leading-tight">
-                Domine a <span className="text-cyber-purple text-glow">Automação com IA</span> no WhatsApp
+                Crie Sites <span className="text-cyber-purple text-glow">Profissionais com IA</span> no VS Code
               </h1>
               <p className="text-sm sm:text-base md:text-lg lg:text-xl text-white/80 mb-6 md:mb-8 reveal-on-scroll leading-relaxed" style={{animationDelay: '0.2s'}}>
-                Aprenda na prática a criar automações inteligentes e transforme seu atendimento e vendas com a <span className="text-cyber-purple font-medium">Fulltime Academy</span>. Desenvolva aplicativos no VS Code de forma componentizada e organizada, mesmo sem saber programar.
+                Aprenda na prática a criar sites profissionais usando Inteligência Artificial diretamente no VS Code com a <span className="text-cyber-purple font-medium">Fulltime Academy</span>. Do zero ao site publicado, sem complicação e sem precisar ser programador.
               </p>
             </div>
             
@@ -98,13 +98,14 @@ const HeroSection = () => {
                 className="inline-block px-8 py-4 text-lg font-medium rounded-md bg-gradient-to-r from-cyber-purple to-cyber-pink text-white hover:from-cyber-pink hover:to-cyber-purple transition-all duration-300 shadow-lg shadow-cyber-purple/30 animate-pulse-glow">
                 Quero Me Inscrever Agora!
               </a>
-              <Button 
-                variant="outline" 
-                className="px-6 py-6 border-cyber-purple hover:bg-cyber-purple/20 text-white"
-                onClick={() => window.open('https://hub.la/g/gADxxrJCI7RmD84DoiOV', '_blank', 'noopener,noreferrer')}
+              <a 
+                href="https://pay.kiwify.com.br/Cem6OiV"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-4 border border-cyber-purple rounded-md text-white hover:bg-cyber-purple/20 transition-all duration-300"
               >
-                Ver Conteúdo do Curso <ExternalLink className="ml-2" />
-              </Button>
+                Garantir Minha Vaga <ExternalLink className="ml-2 h-4 w-4" />
+              </a>
             </div>
           </div>
         </div>

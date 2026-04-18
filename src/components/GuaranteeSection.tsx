@@ -26,11 +26,11 @@ const GuaranteeSection = () => {
             </h2>
             
             <p className="text-xl text-white/90">
-              Tenha acesso ao curso completo e teste todas as estratégias por 7 dias sem risco.
+              Tenha acesso ao curso completo e crie seu primeiro site profissional por 7 dias sem risco.
             </p>
             
             <p className="text-white/80">
-              Se você não ficar 100% satisfeito ou não conseguir implementar as automações, basta enviar um e-mail para nossa equipe e devolveremos 100% do seu investimento, sem perguntas.
+              Se você não ficar 100% satisfeito ou não conseguir criar seu site, basta enviar um e-mail para nossa equipe e devolveremos 100% do seu investimento, sem perguntas.
             </p>
             
             <div className="pt-4">

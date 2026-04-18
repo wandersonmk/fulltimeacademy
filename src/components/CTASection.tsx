@@ -58,10 +58,10 @@ const CTASection = () => {
         <div className="glass p-8 md:p-12 rounded-2xl border border-cyber-purple/30 max-w-5xl mx-auto">
           <div className="text-center mb-12 reveal-on-scroll">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white">
-              Comece sua <span className="text-cyber-purple text-glow">Jornada</span> Hoje
+              Comece a Criar Sites <span className="text-cyber-purple text-glow">Profissionais</span> Hoje
             </h2>
             <p className="text-xl text-white/90 max-w-2xl mx-auto">
-              Transforme o WhatsApp em uma máquina de vendas automática e leve seu negócio para o próximo nível com inteligência artificial.
+              Transforme suas ideias em sites profissionais usando IA no VS Code e abra novas oportunidades de negócio com o mini curso da Fulltime Academy.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ const CTASection = () => {
                 </svg>
                 <div>
                   <h4 className="text-lg font-medium text-white mb-1">Acesso Imediato</h4>
-                  <p className="text-white/70">Comece a implementar as automações ainda hoje.</p>
+                  <p className="text-white/70">Comece a criar seu primeiro site profissional ainda hoje.</p>
                 </div>
               </div>
               
@@ -92,8 +92,8 @@ const CTASection = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <div>
-                  <h4 className="text-lg font-medium text-white mb-1">Conteúdo Sempre Atualizado</h4>
-                  <p className="text-white/70">Receba atualizações à medida que as tecnologias evoluem.</p>
+                  <h4 className="text-lg font-medium text-white mb-1">Acesso Vitalício</h4>
+                  <p className="text-white/70">Assista quando quiser, quantas vezes precisar, sem expiração.</p>
                 </div>
               </div>
               
@@ -103,7 +103,7 @@ const CTASection = () => {
                 </svg>
                 <div>
                   <h4 className="text-lg font-medium text-white mb-1">Comunidade VIP</h4>
-                  <p className="text-white/70">Troque experiências com outros alunos e especialistas.</p>
+                  <p className="text-white/70">Troque experiências com outros alunos e receba feedback dos seus projetos.</p>
                 </div>
               </div>
             </div>
@@ -149,20 +149,12 @@ const CTASection = () => {
                 
                 <div className="space-y-4">
                   <a 
-                    href="https://pay.hub.la/gADxxrJCI7RmD84DoiOV" 
+                    href="https://pay.kiwify.com.br/Cem6OiV" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full py-4 px-6 bg-gradient-to-r from-cyber-purple to-cyber-pink text-white text-lg font-medium rounded-lg text-center hover:from-cyber-pink hover:to-cyber-purple transition-all duration-300 shadow-lg shadow-cyber-purple/30 animate-pulse-glow">
                     Quero Me Inscrever Agora!
                   </a>
-                  
-                  <Button 
-                    variant="outline" 
-                    className="w-full border-cyber-purple hover:bg-cyber-purple/20 text-white"
-                    onClick={() => window.open('https://hub.la/g/gADxxrJCI7RmD84DoiOV', '_blank', 'noopener,noreferrer')}
-                  >
-                    Ver Conteúdo do Curso <ExternalLink className="ml-2" />
-                  </Button>
                 </div>
                 
                 <div className="mt-4 text-center text-white/60 text-sm">
